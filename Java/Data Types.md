@@ -18,7 +18,7 @@
 
 ### Boolean Relational
 
-```
+```java
 public class HelloWorld {
 
     public static void main(String[] args) {
@@ -36,7 +36,7 @@ public class HelloWorld {
 
 - Boolean class - takes string as parameter and tries to understand it as boolean value. 
 
-```
+```java
 public class HelloWorld {
 
     public static void main(String[] args) {
@@ -60,23 +60,23 @@ public class HelloWorld {
 ### Functions on a string
 
 - Working out length of strings - 
-```
+```java
 System.out.println("Hello, World!".length())
 ``` 
 --> gives you length as output. This would output 13. 
 - The `.` operator shows a lot of functions available on a string. 
 - E.g. Want to convert string all to uppercase letters --> 
-``` 
+``` java
 System.out.println("Hello, World!".toUpperCase());
 ``` 
 - E.g. Show the letter/character at a specific position in string --> 
-```
+```java
 System.out.println("Hello, World!".charAt(1));
 ```
 - Output shows `e`. (Positioning starts at 0 then 1,2,3 etc) - so, `H` = position 0. 
 - E.g. Want to get back part of the string: E.g. only want to get back `World!`
 
-```
+```java
 public class HelloWorld {
 
     public static void main(String[] args) {
@@ -90,7 +90,7 @@ public class HelloWorld {
 ### Topic assessment questions:
 
 - Example code:
-```
+```java
 public static void main(String[] args) {
 	int a = 12;    
 	double b = 1.6;

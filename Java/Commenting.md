@@ -3,7 +3,7 @@
 - `//` - enables you to make a note on that line. Single line comment. 
 - `/*` - Multi-line comment - automatically adds `*/` at the end of the comment. Comment continues til the end `*/`.
 
-```
+```java
 public class HelloWorld {
 
     public static void main(String[] args) {
