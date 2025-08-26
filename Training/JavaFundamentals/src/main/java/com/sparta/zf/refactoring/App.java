@@ -10,7 +10,7 @@ public class App {
     }
 
     public static String getGreeting(int timeOfDay) {
-        if (timeOfDay >= 5 && timeOfDay <= 12){
+        if (timeOfDay >= 5 && timeOfDay < 12){
             return "Good Morning!";
         } else if (timeOfDay >= 12 && timeOfDay <= 18){
             return"Good Afternoon!";
@@ -18,5 +18,4 @@ public class App {
             return "Good Evening!";
         }
     }
-
 }
