@@ -13,7 +13,7 @@ public class Methods {
             return false;
         }
     }
-
+    
     // OR
     //return x >= y --> operators return true or false automatically.
 
@@ -23,7 +23,7 @@ public class Methods {
     public static double BODMAS(int inputNumber) {
         return ((inputNumber * inputNumber) + 101) / 7.0 - 4;
     }
-     // equals returns true or false automatically.
+     // equals returns true or false automatically. 
 
     // implement this method so that it returns true if input is "password"
     // regardless of case
